@@ -23,7 +23,7 @@ Video Link - [Drive](https://drive.google.com/file/d/1z91um6becaoFQ-kKRYm4pBmys5
 ### Market Data
 
 * **Live Price Feed**
-  Uses WebSockets (via CoinCap) to stream real-time price updates for portfolio assets without page refreshes.
+  Uses CoinGecko for real-time price updates for portfolio assets.
 
 * **Market Overview**
   A table with search functionality to filter coins by name or symbol.
