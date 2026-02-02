@@ -35,7 +35,7 @@ const ProfitLossAreaChart = ({ data }: Props) => {
 
   return (
     <Card title="P/L Landscape" bordered={false} className="shadow-sm h-full">
-      <div className="h-[300px] w-full">
+      <div className="h-75 w-full">
         <ResponsiveContainer width="100%" height="100%">
           <AreaChart data={data} margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
             <CartesianGrid strokeDasharray="3 3" opacity={0.2} />

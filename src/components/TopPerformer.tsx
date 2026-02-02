@@ -15,12 +15,12 @@ interface Props {
 
 const TopPerformers = ({ data }: Props) => {
   return (
-    <Card title="Top Performers (ROI)" bordered={false} className="shadow-sm h-full">
+    <Card title="Top Performers (ROI)" variant="borderless" className="shadow-sm h-full">
       <List
         itemLayout="horizontal"
         dataSource={data}
         renderItem={(item) => (
-          <List.Item>                                            vbh
+          <List.Item>                                           
             <List.Item.Meta
               title={
                 <span className="font-semibold">
